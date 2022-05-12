@@ -1,0 +1,24 @@
+
+
+.subjectHome{
+    .image-main_header{
+        background-image: url('../../assets/img/interes-compuesto.png');
+    }
+    ul{
+        margin-top: 2em;
+        padding-right: 1.3em;
+        li{
+            list-style: none;
+            margin-bottom: 2em;
+            a{
+                span{
+                    font-family: Meslo-Bold;
+                    font-size: 1.4em;
+                    margin-right: .7em;
+                }
+                text-decoration: none;
+                font-size: 1.3em;
+            }
+        }
+    }
+}

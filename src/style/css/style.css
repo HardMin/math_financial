@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+main {
+  min-height: 100vh;
+}
+main .image-main_header {
+  width: 100%;
+  height: 15em;
+  background-image: url("../../assets/img/que-son-matematicas-financieras.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 2em;
+}
+main section {
+  padding: 1em;
+}
+main section h3 {
+  width: 100%;
+  border-bottom: 0.5px solid rgba(136, 136, 136, 0.6666666667);
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+main section p {
+  text-align: justify;
+}
+
+footer {
+  background: #222;
+  padding: 1em;
+}
+footer .Hr {
+  width: 100%;
+  margin: 0.25em 0;
+  height: 1px;
+  border-bottom: 1px solid #888;
+}
+footer .footer-brand {
+  margin-bottom: 2em;
+}
+footer .footer-brand a {
+  color: #fff;
+  font-weight: 800;
+}
+footer .footer-url {
+  border-top: 1px solid #aaa;
+}
+footer .footer-url .nav-title {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  padding-bottom: 0.5em;
+  margin-top: -2em;
+  border-bottom: 1px solid #aaa;
+}
+footer .footer-url .nav a {
+  text-align: center;
+  color: #fff;
+}
+footer .footer-url .nav a:active {
+  background: #444;
+}
+footer .footer-url .nav :visited {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

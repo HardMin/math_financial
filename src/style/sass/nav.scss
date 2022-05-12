@@ -1,0 +1,125 @@
+//Variables
+$bg-menu: rgba(34, 34, 34, 0.781);
+
+$bg-menu_items:#000102;
+$cl-menu-items: #eee;
+
+$bg-menu_items-list: #fafafa;
+$cl-menu_items-list: #050505;
+
+//Navbar
+
+.navbar{
+    height: 4em;
+    .container-fluid{
+        a{
+            color: #fff;
+            
+        }
+
+
+        //NavVertical_phone + ===>
+        .navbar-menu{
+            display: flex;
+            position: absolute;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            padding: 4px;
+            background: transparent;
+            right: 1em;
+            top: 20%;
+            
+            
+            span{
+                display: block;
+                padding: 2px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                background: #fff;
+                width: 20px;
+                height: 2.5px;
+                border-radius: 2.5px;
+            }
+            
+        }
+        
+    }
+    .navbar_phone{
+
+        [active="true"]{
+            outline: 1.3px solid #aaa;
+        }
+    }
+}
+
+.navVertical-Menu_Phone{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border: none;
+    top: 4em;
+
+    [active="false"]{
+        display:none;
+    }
+    [active="true"]{
+        display: block;
+        background: #fff;
+    }
+
+    .navVertical-Nav{
+        background: transparent;
+        .navVertical-bgToggle{
+            position: absolute;
+            top: 0em;
+            left:0;
+            z-index: 100;
+            height: 100vh;
+            width: 100%;
+            background: $bg-menu;
+        }
+        .navVertical-navitem{
+            position: relative;
+            z-index: 1000;
+            border: none;
+            outline: none;
+            width: 100%;
+            a, .list{
+                display: block;
+                text-align: center;
+                padding: .5em 0;
+                background: $bg-menu_items;
+                margin-bottom: 1px;
+                text-decoration: none;
+                color: $cl-menu-items;
+            }
+            a:active{
+                background: #9ed3ff;
+            }
+            
+            .list_content{
+                .navitem_list{
+                    a{
+                        background: $bg-menu_items-list;
+                        color: $cl-menu_items-list;
+                    }
+                    a:active{
+                        background: #b7dfff;
+                    }
+                    .disabled{
+                        background: #eee;
+                        color: #aaa;
+                    }
+                    .disabled:active{
+                        background: #eee;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+

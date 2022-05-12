@@ -1,0 +1,94 @@
+.navbar {
+  height: 4em;
+}
+.navbar .container-fluid a {
+  color: #fff;
+}
+.navbar .container-fluid .navbar-menu {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  padding: 4px;
+  background: transparent;
+  right: 1em;
+  top: 20%;
+}
+.navbar .container-fluid .navbar-menu span {
+  display: block;
+  padding: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background: #fff;
+  width: 20px;
+  height: 2.5px;
+  border-radius: 2.5px;
+}
+.navbar .navbar_phone [active=true] {
+  outline: 1.3px solid #aaa;
+}
+
+.navVertical-Menu_Phone {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  border: none;
+  top: 4em;
+}
+.navVertical-Menu_Phone [active=false] {
+  display: none;
+}
+.navVertical-Menu_Phone [active=true] {
+  display: block;
+  background: #fff;
+}
+.navVertical-Menu_Phone .navVertical-Nav {
+  background: transparent;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-bgToggle {
+  position: absolute;
+  top: 0em;
+  left: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  background: rgba(34, 34, 34, 0.781);
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem {
+  position: relative;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem a, .navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list {
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+  background: #000102;
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: #eee;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem a:active {
+  background: #9ed3ff;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content .navitem_list a {
+  background: #fafafa;
+  color: #050505;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content .navitem_list a:active {
+  background: #b7dfff;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content .navitem_list .disabled {
+  background: #eee;
+  color: #aaa;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content .navitem_list .disabled:active {
+  background: #eee;
+}
+
+/*# sourceMappingURL=nav.css.map */

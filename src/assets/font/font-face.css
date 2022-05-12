@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Meslo-Regular;
+    src: url('./Meslo/Meslo\ LG\ L\ Regular\ Nerd\ Font\ Complete\ Mono.ttf');
+}
+@font-face {
+    font-family: Meslo-Bold;
+    src: url('./Meslo/Meslo\ LG\ M\ Bold\ Nerd\ Font\ Complete.ttf');
+}
+@font-face {
+    font-family: Meslo-Regular-S;
+    src: url('./Meslo/Meslo\ LG\ S\ Regular\ Nerd\ Font\ Complete\ Mono.ttf');
+}

@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// Container 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, {StrictMode} from 'react';
+import { Render } from './router/router';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter } from 'react-router-dom';
+import './assets/font/font-face.css';
+import './style/css/style.css';
+
+export class App extends React.Component{
+
+render(){
+    return(
+        <StrictMode>
+            <BrowserRouter>
+                <Render/>       
+            </BrowserRouter>
+        </StrictMode>
+        );
+    }
 }
-
-export default App;

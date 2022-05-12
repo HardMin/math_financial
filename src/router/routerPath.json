@@ -1,0 +1,19 @@
+{
+    "interes": {
+        "intereSimple": {
+            "path": "/definicion/interes-simple"
+        },
+        "interesCompuesto": {
+            "path": "/definicion/interes-compuesto",
+            "subs": {
+                "concept": {
+                    "path": "/definicion/interes-compuesto-concept"
+                },
+                "calc": {
+                    "path": "/definicion/interes-compuesto-calc"
+                }
+            }
+        }
+    },
+    "descuento": {}
+}

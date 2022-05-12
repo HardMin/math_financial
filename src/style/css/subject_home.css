@@ -1,0 +1,22 @@
+.subjectHome .image-main_header {
+  background-image: url("../../assets/img/interes-compuesto.png");
+}
+.subjectHome ul {
+  margin-top: 2em;
+  padding-right: 1.3em;
+}
+.subjectHome ul li {
+  list-style: none;
+  margin-bottom: 2em;
+}
+.subjectHome ul li a {
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.subjectHome ul li a span {
+  font-family: Meslo-Bold;
+  font-size: 1.4em;
+  margin-right: 0.7em;
+}
+
+/*# sourceMappingURL=subject_home.css.map */
