@@ -1,0 +1,92 @@
+.hide {
+  display: none;
+}
+
+.ContainerResults {
+  margin-top: 2em;
+}
+.ContainerResults h5 {
+  line-height: 2.4;
+}
+
+.ExprMath .numNormal {
+  font-size: 15px;
+}
+.ExprMath .Elevacion {
+  vertical-align: super;
+  font-size: 13px;
+}
+.ExprMath .Division {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ExprMath .Division .DivisionNumerador {
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid #000;
+}
+.ExprMath .Division .DivisionDenominador {
+  text-align: center;
+  width: 10em;
+}
+.ExprMath .Raiz .RaizNumerador {
+  display: inline-block;
+  transform: skewX(20deg);
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 10px;
+  height: 15px;
+  position: relative;
+  top: 6.5px;
+}
+.ExprMath .Raiz .RaizNumerador .RaizElevacion {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -0.1em;
+  vertical-align: super;
+  font-size: 13px;
+  transform: skewX(-20deg);
+}
+.ExprMath .Raiz .RaizDenominador {
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  left: 4.5px;
+  transform: skewX(-20deg);
+  height: 2.5em;
+  width: 5em;
+  margin-left: 4px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  margin-right: 10px;
+}
+.ExprMath .Raiz .Division {
+  display: inline-block;
+  position: absolute;
+  width: 5em;
+  transform: skewX(20deg);
+}
+.ExprMath .Raiz .Division .ContainerDivision {
+  display: flex;
+  flex-wrap: wrap;
+  width: 5em;
+  justify-content: center;
+}
+.ExprMath .Raiz .Division .ContainerDivision .DivisionNumerador {
+  text-align: center;
+  width: 80%;
+  border-bottom: 1px solid #000;
+}
+.ExprMath .Raiz .Division .ContainerDivision .DivisionDenominador {
+  text-align: center;
+  width: 10em;
+}
+.ExprMath .Signo {
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 7px;
+  transform: scaleX(1.5) scaleY(1.2);
+}
+
+/*# sourceMappingURL=calc.css.map */
