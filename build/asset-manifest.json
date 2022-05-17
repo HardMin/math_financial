@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3730a372.css",
+    "main.js": "/static/js/main.89231645.js",
+    "static/media/Meslo LG M Bold Nerd Font Complete.ttf": "/static/media/Meslo LG M Bold Nerd Font Complete.e6d2e09aa6e23431e465.ttf",
+    "static/media/Meslo LG L Regular Nerd Font Complete Mono.ttf": "/static/media/Meslo LG L Regular Nerd Font Complete Mono.8120acd9be4e77ee8e2b.ttf",
+    "static/media/Meslo LG S Regular Nerd Font Complete Mono.ttf": "/static/media/Meslo LG S Regular Nerd Font Complete Mono.4b74fa9b1495a9da09f2.ttf",
+    "static/media/que-son-matematicas-financieras.jpeg": "/static/media/que-son-matematicas-financieras.945fe4d2a7d8f52da679.jpeg",
+    "static/media/interes-compuesto.png": "/static/media/interes-compuesto.eb07f2ef2073ea75ab3f.png",
+    "index.html": "/index.html",
+    "main.3730a372.css.map": "/static/css/main.3730a372.css.map",
+    "main.89231645.js.map": "/static/js/main.89231645.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3730a372.css",
+    "static/js/main.89231645.js"
+  ]
+}
