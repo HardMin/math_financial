@@ -1,9 +1,9 @@
 import { StrictMode, useState } from "react";
 import { Link } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
 import { Nav, NavItem } from "reactstrap";
-import "../style/css/nav.css";
+import { ScrollTopPag } from "../components";
 import { InteresCompuestoPath, InteresSimplePath } from "../router/router";
+import "../style/css/nav.css";
 
 
 export const NavBarPage = () => {
@@ -30,12 +30,11 @@ export const NavBarPage = () => {
     };
     const handleToggleOutMenu = () => {
         handleToggleMenu();
-        scrollTopPag();
+        ScrollTopPag();
     };
 
-    const scrollTopPag = ()=>{
-        scroll.scrollToTop();
-    }
+    
+
     let Menu_Phone_Handle = menu.active;
 
     return (
@@ -97,8 +96,7 @@ export const NavBarPage = () => {
                                                 Interés Compuesto
                                             </Link>
                                         </NavItem>
-                                        <hr />
-                                        <NavItem className="navVertical-navitem navitem_list">
+                                        {/* <NavItem className="navVertical-navitem navitem_list">
                                             <Link
                                                 className="disabled"
                                                 // onClick={handleToggleOutMenu}
@@ -115,8 +113,7 @@ export const NavBarPage = () => {
                                             >
                                                 Descuento Compuesto
                                             </Link>
-                                        </NavItem>
-                                        <hr />
+                                        </NavItem> */}
                                     </div>
                                 </NavItem>
                                 <div

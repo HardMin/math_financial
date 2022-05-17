@@ -1,4 +1,5 @@
 .navbar {
+  background: #06a;
   height: 4em;
 }
 .navbar .container-fluid a {
@@ -55,7 +56,7 @@
   z-index: 100;
   height: 100vh;
   width: 100%;
-  background: rgba(34, 34, 34, 0.781);
+  background: rgba(6, 26, 34, 0.781);
 }
 .navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem {
   position: relative;
@@ -68,13 +69,16 @@
   display: block;
   text-align: center;
   padding: 0.5em 0;
-  background: #000102;
+  background: rgb(4, 19, 29);
   margin-bottom: 1px;
   text-decoration: none;
   color: #eee;
 }
 .navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem a:active {
   background: #9ed3ff;
+}
+.navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content {
+  background: transparent;
 }
 .navVertical-Menu_Phone .navVertical-Nav .navVertical-navitem .list_content .navitem_list a {
   background: #fafafa;

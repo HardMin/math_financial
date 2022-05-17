@@ -2,9 +2,10 @@ import { StrictMode } from "react";
 import { Link } from "react-router-dom";
 import { Nav, NavItem } from "reactstrap";
 import { Hr } from ".";
+import { ScrollTopPag, Link as LinkScroll } from "../components";
 
 export const Footer = () => {
-    
+
     return (
         <StrictMode>
             <footer>
@@ -18,23 +19,23 @@ export const Footer = () => {
                             Guía
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link" to="/interes-simple">
+                            <Link onClick={ScrollTopPag} className="nav-link" to="/interes-simple">
                                 Interés Simple
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link" to="/interes-compuesto">
+                            <Link onClick={ScrollTopPag} className="nav-link" to="/interes-compuesto">
                                 Interés Compuesto
                             </Link>
                         </NavItem>
                         <Hr/>
                         <NavItem>
-                            <Link className="nav-link" to="/descuento-simple">
+                            <Link onClick={ScrollTopPag} className="nav-link" to="/descuento-simple">
                                 Descuento Simple
                             </Link>
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link" to="/descuento-compuesto">
+                            <Link onClick={ScrollTopPag} className="nav-link" to="/descuento-compuesto">
                                 Descuento Compuesto
                             </Link>
                         </NavItem>

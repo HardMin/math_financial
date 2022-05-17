@@ -1,15 +1,21 @@
-//Variables
-$bg-menu: rgba(34, 34, 34, 0.781);
+$color-blue: #06a;
 
-$bg-menu_items:#000102;
-$cl-menu-items: #eee;
 
-$bg-menu_items-list: #fafafa;
-$cl-menu_items-list: #050505;
+$bg-navbar: $color-blue;
+
+$bg-navbar-menu: rgba(6, 26, 34, 0.781);
+
+$bg-navbar-menu_items: rgb(4, 19, 29);
+$cl-navbar-menu-items: #eee;
+
+$bg-navbar-menu_items-list: #fafafa;
+$cl-navbar-menu_items-list: #050505;
+
 
 //Navbar
 
 .navbar{
+    background: $bg-navbar;
     height: 4em;
     .container-fluid{
         a{
@@ -48,7 +54,6 @@ $cl-menu_items-list: #050505;
         
     }
     .navbar_phone{
-
         [active="true"]{
             outline: 1.3px solid #aaa;
         }
@@ -79,7 +84,7 @@ $cl-menu_items-list: #050505;
             z-index: 100;
             height: 100vh;
             width: 100%;
-            background: $bg-menu;
+            background: $bg-navbar-menu;
         }
         .navVertical-navitem{
             position: relative;
@@ -91,20 +96,21 @@ $cl-menu_items-list: #050505;
                 display: block;
                 text-align: center;
                 padding: .5em 0;
-                background: $bg-menu_items;
+                background: $bg-navbar-menu_items;
                 margin-bottom: 1px;
                 text-decoration: none;
-                color: $cl-menu-items;
+                color: $cl-navbar-menu-items;
             }
             a:active{
                 background: #9ed3ff;
             }
             
             .list_content{
+                background: transparent;
                 .navitem_list{
                     a{
-                        background: $bg-menu_items-list;
-                        color: $cl-menu_items-list;
+                        background: $bg-navbar-menu_items-list;
+                        color: $cl-navbar-menu_items-list;
                     }
                     a:active{
                         background: #b7dfff;
